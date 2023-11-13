@@ -11,8 +11,8 @@ Todo List API Services using Express JS
 4. MongoDB
 
 ### Installation
-1. Clone this repository: `git clone <link-repository>`
-2. Change directory to the project: `cd <name directory>`
+1. Clone this repository: `git clone https://github.com/intanurftnh/api-todolist-app`
+2. Change directory to the project: `cd api-todolist-app`
 3. Install dependencies: `npm install`
 4. Run the application: `npm run dev`
 5. The application will be available at: `http://localhost:3000`
@@ -36,7 +36,7 @@ POST /api/auth/register
 ```
 #### Header
 ```json
-Content-Type: application/json
+"Content-Type: application/json"
 ```
 #### Body
 ```json
@@ -63,7 +63,7 @@ POST /api/auth/login
 ```
 #### Header
 ```json
-Content-Type: application/json
+"Content-Type": "application/json"
 ```
 #### Body
 ```json
