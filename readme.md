@@ -36,7 +36,7 @@ POST /api/auth/register
 ```
 #### Header
 ```json
-"Content-Type: application/json"
+"Content-Type": "application/json"
 ```
 #### Body
 ```json
@@ -87,7 +87,7 @@ POST /api/todos
 ```
 #### Header
 ```json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc
+"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc"
 ```
 #### Body
 ```json
@@ -114,7 +114,7 @@ GET /api/todos
 ```
 #### Header
 ```json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc
+"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc"
 ```
 #### Response
 ```json
@@ -143,7 +143,7 @@ GET /api/todos/65519c51417d33e35ed87a92
 ```
 #### Header
 ```json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc
+"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc"
 ```
 #### Response
 ```json
@@ -163,7 +163,7 @@ PUT /api/todos/65519bee417d33e35ed87a90
 ```
 #### Header
 ```json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc
+"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc"
 ```
 #### Body
 ```json
@@ -190,7 +190,7 @@ DELETE /api/todos/65519bee417d33e35ed87a90
 ```
 #### Header
 ```json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc
+"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc"
 ```
 #### Response
 ```json
@@ -206,7 +206,7 @@ DELETE /api/todos/
 ```
 #### Header
 ```json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc
+"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NTE4MTgyYTNiNTBhMGY3ZmU1Zjc2NCIsImlhdCI6MTY5OTg0NDUzOSwiZXhwIjoxNjk5OTMwOTM5fQ.FOkGd2WuvCdOys9j1J4UTPUiQOKQNpz_95eK-3dnxYc"
 ```
 #### Response
 ```json
